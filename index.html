@@ -26,9 +26,9 @@
         <li><a href="#sobre-mi">Sobre mí</a></li>
         <li><a href="#areas">Áreas de práctica</a></li>
         <li><a href="#clientes">Clientes</a></li>
-        <li><a href="#opiniones">Opiniones</a></li>
+        <li><a href="opiniones.html">La voz de Santiago</a></li>
       </ul>
-      <a href="#hablemos" class="btn-nav">Contactar</a>
+      <a href="contacto.html" class="btn-nav">Contactar</a>
     </div>
   </nav>
 
@@ -38,7 +38,7 @@
       <div class="hero-content">
         <h1 class="hero-title"><span class="hero-open-quote">&ldquo;</span>Transformamos<br>asesorías en resultados<span class="hero-close-quote">&rdquo;</span></h1>
         <p class="hero-body">Asesoramos personas naturales y jurídicas de diferentes<br>sectores económicos, en el cumplimiento del marco regulatorio<br>aplicable y en la mitigación de riesgos legales.</p>
-        <a href="#hablemos" class="btn-primary">Solicitar asesoría</a>
+        <a href="contacto.html" class="btn-primary">Solicitar asesoría</a>
       </div>
       <div class="hero-photo">
         <img src="assets/santiago-hero.png" alt="Santiago Soto Luna" />
@@ -116,7 +116,7 @@
             <img src="assets/icon-empresa.png" alt="" />
           </div>
           <h3>Derecho de la empresa</h3>
-          <a href="#" class="area-link">Ver más <span aria-hidden="true">›</span></a>
+          <a href="#" class="area-link" data-modal="modal-empresa">Ver más <span aria-hidden="true">›</span></a>
         </div>
 
         <div class="area-card">
@@ -124,7 +124,7 @@
             <img src="assets/icon-minero.png" alt="" />
           </div>
           <h3>Derecho minero –<br/>energético</h3>
-          <a href="#" class="area-link">Ver más <span aria-hidden="true">›</span></a>
+          <a href="#" class="area-link" data-modal="modal-minero">Ver más <span aria-hidden="true">›</span></a>
         </div>
 
         <div class="area-card">
@@ -132,7 +132,7 @@
             <img src="assets/icon-penal.png" alt="" />
           </div>
           <h3>Derecho penal económico<br/>y Compliance</h3>
-          <a href="#" class="area-link">Ver más <span aria-hidden="true">›</span></a>
+          <a href="#" class="area-link" data-modal="modal-penal">Ver más <span aria-hidden="true">›</span></a>
         </div>
 
         <div class="area-card">
@@ -140,12 +140,12 @@
             <img src="assets/icon-resolucion.png" alt="" />
           </div>
           <h3>Resolución alternativa<br/>de conflictos</h3>
-          <a href="#" class="area-link">Ver más <span aria-hidden="true">›</span></a>
+          <a href="#" class="area-link" data-modal="modal-resolucion">Ver más <span aria-hidden="true">›</span></a>
         </div>
 
       </div>
       <div class="areas-cta">
-        <a href="assets/brochure.pdf" class="btn-outline" download>Descargar Brochure</a>
+        <a href="assets/BRIEF_SLA_FULL_2023-comprimido.pdf" class="btn-primary" download="Brief_SotoLuna.pdf">Descargar Brochure</a>
       </div>
     </div>
   </section>
@@ -167,13 +167,13 @@
       </div>
       <div class="testimonials-right">
         <div class="testimonials-track" id="testimonials-track">
-          <blockquote class="testimonial-card">
-            <p>"Recibimos una asesoría clara y honesta que nos permitió tomar buenas decisiones. Sentimos respaldo en cada etapa del proceso."</p>
-          </blockquote>
-          <blockquote class="testimonial-card">
+          <blockquote class="testimonial-card" data-slot="0">
             <p>"Se nota la experiencia desde el primer contacto. Su acompañamiento marcó la diferencia en un momento difícil."</p>
           </blockquote>
-          <blockquote class="testimonial-card">
+          <blockquote class="testimonial-card active" data-slot="1">
+            <p>"Recibimos una asesoría clara y honesta que nos permitió tomar buenas decisiones. Sentimos respaldo en cada etapa del proceso."</p>
+          </blockquote>
+          <blockquote class="testimonial-card" data-slot="2">
             <p>"Profesional, cercano y eficiente. No solo resolvió el problema, nos dio tranquilidad durante todo el camino."</p>
           </blockquote>
         </div>
@@ -189,34 +189,34 @@
 
         <article class="opinion-card">
           <div class="opinion-img">
-            <img src="assets/foto-empresa.png" alt="Todo mal" />
+            <img src="assets/DSC07344-web.jpg" alt="Todo mal" />
           </div>
           <div class="opinion-body">
             <h3>Todo mal</h3>
             <p>El pasado 31 de mayo, los colombianos nos acostamos preocupados con la certeza de que, una vez más, en los primeros días del mes que...</p>
-            <a href="#" class="opinion-link">Leer más &rsaquo;</a>
+            <a href="opiniones.html" class="opinion-link">Leer más &rsaquo;</a>
           </div>
         </article>
 
         <article class="opinion-card">
           <div class="opinion-img">
-            <img src="assets/foto-resolucion.png" alt="Soluciones diferenciales" />
+            <img src="assets/gasolina-web.jpg" alt="Soluciones diferenciales" />
           </div>
           <div class="opinion-body">
             <h3>Soluciones diferenciales</h3>
             <p>Ya es común hablar cada mes del incremento en el precio de la gasolina, al igual que es común el malestar que esto genera; no vale la pena...</p>
-            <a href="#" class="opinion-link">Leer más &rsaquo;</a>
+            <a href="opiniones.html" class="opinion-link">Leer más &rsaquo;</a>
           </div>
         </article>
 
         <article class="opinion-card">
           <div class="opinion-img">
-            <img src="assets/foto-minero.png" alt="Todo mal" />
+            <img src="assets/regalias.jpeg" alt="Todo mal" />
           </div>
           <div class="opinion-body">
             <h3>Todo mal</h3>
             <p>El pasado 31 de mayo, los colombianos nos acostamos preocupados con la certeza de que, una vez más, en los primeros días del mes que...</p>
-            <a href="#" class="opinion-link">Leer más &rsaquo;</a>
+            <a href="opiniones.html" class="opinion-link">Leer más &rsaquo;</a>
           </div>
         </article>
 
@@ -229,7 +229,7 @@
     <div class="container cta-inner">
       <h2>¿Necesita asesoría jurídica especializada?</h2>
       <p>Recibe orientación jurídica clara y confiable para tomar decisiones seguras. Escríbeme y conversemos sobre la mejor ruta legal para tu caso.</p>
-      <a href="#hablemos" class="btn-primary">Solicitar asesoría</a>
+      <a href="contacto.html" class="btn-primary">Solicitar asesoría</a>
     </div>
   </section>
 
@@ -303,6 +303,77 @@
       </div>
     </div>
   </footer>
+
+  <!-- ═══════════════ MODALES ÁREAS ═══════════════ -->
+
+  <div class="modal-overlay" id="modal-empresa" role="dialog" aria-modal="true">
+    <div class="modal-box">
+      <div class="modal-img">
+        <img src="assets/foto-empresa.png" alt="Derecho de la empresa" />
+      </div>
+      <div class="modal-content">
+        <button class="modal-close" aria-label="Cerrar">&times;</button>
+        <h3 class="modal-title">Derecho de la Empresa</h3>
+        <p>El área de Derecho de la Empresa presta asesoría integral en la estructuración y desarrollo de actividades empresariales, con especial énfasis en el cumplimiento del marco regulatorio aplicable y en la adecuada configuración de las relaciones jurídico–negociales que sustentan la operación de cada organización.</p>
+        <p>Nuestra intervención abarca la planeación y ejecución de estrategias contractuales, la constitución y reorganización societaria, así como la prevención de contingencias legales derivadas del ejercicio comercial. Ofrecemos un acompañamiento permanente y ajustado a las particularidades de cada negocio, orientado a fortalecer su seguridad jurídica y sostenibilidad institucional.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal-overlay" id="modal-minero" role="dialog" aria-modal="true">
+    <div class="modal-box">
+      <div class="modal-img">
+        <img src="assets/foto-minero.png" alt="Derecho minero energético" />
+      </div>
+      <div class="modal-content">
+        <button class="modal-close" aria-label="Cerrar">&times;</button>
+        <h3 class="modal-title">Derecho Minero Energético</h3>
+        <p>Nuestra práctica en Derecho Minero–Energético ofrece asesoría integral en materia legal y regulatoria, orientada a la estructuración, desarrollo y ejecución de proyectos en los sectores minero y energético. Acompañamos a nuestros clientes en el cumplimiento de sus obligaciones contractuales y en la prevención de contingencias, conjugando la precisión jurídica con una visión de sostenibilidad y responsabilidad institucional.</p>
+        <p>Ejercemos la defensa de los intereses de personas naturales y jurídicas en actuaciones administrativas, sancionatorias o conciliatorias, con el compromiso de proteger lo esencial: la confianza y la continuidad de sus proyectos. En cada intervención, trabajamos para que la asesoría trascienda y se convierta en resultado.</p>
+        <h4 class="modal-subtitle">Derecho hidrocarburos</h4>
+        <ul class="modal-list">
+          <li><em>Upstream</em></li>
+          <li><em>Downstream</em></li>
+          <li><em>Midstream</em></li>
+        </ul>
+        <h4 class="modal-subtitle">Derecho minero</h4>
+        <ul class="modal-list">
+          <li>Consultoría en regulación minera</li>
+          <li>Procesos de formalización minera</li>
+          <li>Asesoría en cesión de derechos de titularidad minera.</li>
+          <li>Gestión integral de la minuta del contrato de concesión minera ante el ente administrador (ANM)</li>
+          <li>Representación y defensa en procesos administrativos sancionatorios y conciliaciones, respecto a controversias o incumplimientos que se susciten del contrato ANM.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal-overlay" id="modal-penal" role="dialog" aria-modal="true">
+    <div class="modal-box">
+      <div class="modal-img">
+        <img src="assets/foto-penal.png" alt="Derecho penal económico y Compliance" />
+      </div>
+      <div class="modal-content">
+        <button class="modal-close" aria-label="Cerrar">&times;</button>
+        <h3 class="modal-title">Derecho Penal Económico<br>y Compliance</h3>
+        <p>En el ámbito del Derecho Penal Económico y el Compliance, nuestra labor se orienta a resguardar la integridad jurídica de la empresa y de quienes la dirigen. Actuamos donde convergen la estrategia y la prudencia, anticipando riesgos y edificando estructuras de cumplimiento que previenen la incertidumbre y preservan la reputación corporativa. Cuando el litigio es inevitable, asumimos la defensa con rigor técnico y convicción ética, conscientes de que en cada decisión se juega no solo la responsabilidad penal, sino el valor intangible de la confianza.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal-overlay" id="modal-resolucion" role="dialog" aria-modal="true">
+    <div class="modal-box">
+      <div class="modal-img">
+        <img src="assets/foto-resolucion.png" alt="Resolución alternativa de conflictos" />
+      </div>
+      <div class="modal-content">
+        <button class="modal-close" aria-label="Cerrar">&times;</button>
+        <h3 class="modal-title">Resolución alternativa<br>de conflictos</h3>
+        <p>Asumimos la representación de nuestros clientes en procesos de arbitraje nacional e internacional, así como en escenarios de conciliación y mediación, con la convicción de que la justicia también puede hallarse en el equilibrio. Cada actuación se orienta a la obtención de resultados sólidos, jurídicamente sostenibles y acordes con los intereses de quienes confiaron en nosotros.</p>
+        <p>Nuestra práctica privilegia la solución oportuna y razonable de los conflictos, propiciando acuerdos que resguarden la voluntad de las partes y eviten, cuando es posible, el tránsito hacia la jurisdicción ordinaria.</p>
+      </div>
+    </div>
+  </div>
 
   <script src="script.js"></script>
 </body>
