@@ -560,6 +560,29 @@ button { cursor: pointer; border: none; background: none; }
 /* Nav link active state */
 .nav-links a.active { color: var(--orange); }
 
+/* ─── WHATSAPP BUTTON ────────────────────────────── */
+.whatsapp-btn {
+  position: fixed;
+  bottom: 28px;
+  right: 28px;
+  z-index: 800;
+  width: 58px;
+  height: 58px;
+  background: #25D366;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.22);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.whatsapp-btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 28px rgba(0,0,0,0.28);
+}
+.whatsapp-btn svg { width: 32px; height: 32px; }
+
 /* Page hero (Opiniones header) */
 .page-hero {
   background: var(--dark);
