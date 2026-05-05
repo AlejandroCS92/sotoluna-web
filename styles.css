@@ -862,7 +862,6 @@ button { cursor: pointer; border: none; background: none; }
   .hero-open-quote { left: -0.3em; font-size: 1.7em; }
   .hero-close-quote { font-size: 1.7em; }
   .hero-body { font-size: 0.9rem; }
-  .hero-body br { display: none; }
   .hero-photo { height: auto; }
   .hero-photo img {
     position: relative;
