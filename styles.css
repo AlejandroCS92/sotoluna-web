@@ -686,7 +686,14 @@ button { cursor: pointer; border: none; background: none; }
   }
   .hero-body { max-width: 100%; }
   .hero-photo { flex: unset; width: 100%; height: 50vh; min-height: 280px; }
-  .hero-photo img { height: 100%; object-position: top center; }
+  .hero-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top center;
+    left: 0;
+    transform: none;
+  }
 
   /* About */
   .about { padding: 72px 0; }
@@ -856,6 +863,14 @@ button { cursor: pointer; border: none; background: none; }
   .hero-body { font-size: 0.9rem; }
   .hero-body br { display: none; }
   .hero-photo { height: 42vh; min-height: 240px; }
+  .hero-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top center;
+    left: 0;
+    transform: none;
+  }
 
   /* Partners */
   .partners-track img { height: 24px; margin-right: 48px; }
