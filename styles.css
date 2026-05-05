@@ -685,14 +685,15 @@ button { cursor: pointer; border: none; background: none; }
     justify-content: flex-start;
   }
   .hero-body { max-width: 100%; }
-  .hero-photo { flex: unset; width: 100%; height: 50vh; min-height: 280px; }
+  .hero-photo { flex: unset; width: 100%; height: auto; }
   .hero-photo img {
+    position: relative;
     width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: top center;
+    height: auto;
+    max-width: 100%;
     left: 0;
     transform: none;
+    bottom: auto;
   }
 
   /* About */
@@ -862,14 +863,15 @@ button { cursor: pointer; border: none; background: none; }
   .hero-close-quote { font-size: 1.7em; }
   .hero-body { font-size: 0.9rem; }
   .hero-body br { display: none; }
-  .hero-photo { height: 42vh; min-height: 240px; }
+  .hero-photo { height: auto; }
   .hero-photo img {
+    position: relative;
     width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: top center;
+    height: auto;
+    max-width: 100%;
     left: 0;
     transform: none;
+    bottom: auto;
   }
 
   /* Partners */
