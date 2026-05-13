@@ -79,7 +79,7 @@ button { cursor: pointer; border: none; background: none; }
 
 .logo { flex-shrink: 0; }
 .logo-img {
-  height: 60px;
+  height: 80px;
   width: auto;
   transition: opacity 0.2s;
 }
@@ -224,12 +224,12 @@ button { cursor: pointer; border: none; background: none; }
 }
 .partners-track:hover { animation-play-state: paused; }
 .partners-track img {
-  height: 30px;
+  height: 48px;
   width: auto;
   object-fit: contain;
   flex-shrink: 0;
   margin-right: 72px;
-  filter: grayscale(100%) opacity(0.55);
+  filter: grayscale(20%) opacity(0.85);
   transition: filter 0.2s;
 }
 .partners-track img:hover { filter: grayscale(0%) opacity(1); }
@@ -411,7 +411,7 @@ button { cursor: pointer; border: none; background: none; }
   transition: opacity 0.25s, border-color 0.25s, margin-left 0.3s;
 }
 .testimonial-card.active {
-  border-left-color: var(--orange);
+  border-left-color: var(--dark);
   margin-left: 0;
 }
 .testimonial-card p {
