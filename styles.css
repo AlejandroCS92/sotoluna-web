@@ -678,8 +678,8 @@ button { cursor: pointer; border: none; background: none; }
 
 /* ─── RESPONSIVE ─────────────────────────────────── */
 
-/* ── TABLET ≤900px ─────────────────────────────── */
-@media (max-width: 900px) {
+/* ── TABLET ≤1100px ─────────────────────────────── */
+@media (max-width: 1100px) {
 
   /* Hero */
   .hero-inner { flex-direction: column; }
