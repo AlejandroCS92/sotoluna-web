@@ -154,7 +154,7 @@ button { cursor: pointer; border: none; background: none; }
 .hero-title {
   position: relative;
   font-family: var(--font-serif);
-  font-size: clamp(2rem, 4vw, 3.2rem);
+  font-size: clamp(1.75rem, 3.2vw, 2.6rem);
   font-weight: 400;
   color: var(--white);
   line-height: 1.18;
