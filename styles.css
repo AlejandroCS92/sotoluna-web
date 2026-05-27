@@ -131,8 +131,8 @@ button { cursor: pointer; border: none; background: none; }
   content: '';
   position: absolute;
   inset: 0;
-  background: url(assets/fondo.png) center / cover no-repeat;
-  opacity: 0.14;
+  background: url(assets/Fondo1.png) center / cover no-repeat;
+  opacity: 0.22;
   z-index: 0;
 }
 .hero-inner {
@@ -224,11 +224,11 @@ button { cursor: pointer; border: none; background: none; }
 }
 .partners-track:hover { animation-play-state: paused; }
 .partners-track img {
-  height: 48px;
+  height: 90px;
   width: auto;
   object-fit: contain;
   flex-shrink: 0;
-  margin-right: 72px;
+  margin-right: 96px;
   filter: grayscale(20%) opacity(0.85);
   transition: filter 0.2s;
 }
@@ -874,7 +874,7 @@ button { cursor: pointer; border: none; background: none; }
   }
 
   /* Partners */
-  .partners-track img { height: 24px; margin-right: 48px; }
+  .partners-track img { height: 52px; margin-right: 64px; }
 
   /* About */
   .about { padding: 56px 0; }
