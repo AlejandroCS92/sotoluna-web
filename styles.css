@@ -160,6 +160,10 @@ button { cursor: pointer; border: none; background: none; }
   line-height: 1.18;
   margin-bottom: 20px;
 }
+.hero-line {
+  display: block;
+  white-space: nowrap;
+}
 .hero-open-quote {
   position: absolute;
   left: -0.5em;
