@@ -132,7 +132,7 @@ button { cursor: pointer; border: none; background: none; }
   position: absolute;
   inset: 0;
   background: url(assets/Fondo1.png) center / cover no-repeat;
-  opacity: 0.22;
+  opacity: 0.13;
   z-index: 0;
 }
 .hero-inner {
